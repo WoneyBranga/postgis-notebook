@@ -5,7 +5,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ./:/home/ice/
+      - ./:/home/jovyan/
     ports:
       - 8888:8888
   db:
